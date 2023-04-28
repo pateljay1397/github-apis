@@ -1,0 +1,31 @@
+{
+    "id": "a6ddfa10-0844-439a-8680-c94cbc2da46c",
+    "name": "Screen-space Effects",
+    "entryFile": "ScreenSpaceEffectsApp.tsx",
+    "files": [
+        "Effects.ts",
+        "readme.md",
+        "ScreenSpaceEffects.scss",
+        "ScreenSpaceEffectsApi.tsx",
+        "ScreenSpaceEffectsApp.tsx",
+        "ScreenSpaceEffectsWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Demonstrates how to create and apply screen-space effects to a viewport",
+    "thumbnail": "screen-space-effects-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "villa",
+        "retailBuilding",
+        "metrostation",
+        "house"
+    ]
+}

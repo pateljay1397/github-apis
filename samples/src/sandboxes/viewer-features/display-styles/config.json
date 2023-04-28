@@ -1,0 +1,32 @@
+{
+    "id": "593d8ba7-550c-4176-af17-7d0def871da8",
+    "name": "Display Styles",
+    "entryFile": "DisplayStylesApp.tsx",
+    "files": [
+        "DisplayStyles.scss",
+        "DisplayStylesApi.tsx",
+        "DisplayStylesApp.tsx",
+        "DisplayStylesWidget.tsx",
+        "readme.md",
+        "Styles.ts"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Customize the appearance of a 3d viewport using Display Styles",
+    "thumbnail": "display-styles-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "villa",
+        "house",
+        "metrostation",
+        "bayTownProcessPlant",
+        "stadium"
+    ]
+}

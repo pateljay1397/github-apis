@@ -1,0 +1,28 @@
+{
+    "id": "ecc2e721-1760-47b7-b3db-4647a84c2cfa",
+    "name": "Changed Elements",
+    "entryFile": "ChangedElementsApp.tsx",
+    "files": [
+        "ChangedElements.scss",
+        "ChangedElementsApi.tsx",
+        "ChangedElementsApp.tsx",
+        "ChangedElementsClient.ts",
+        "ChangedElementsWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Compare #ChangedElements between #Version and colorizing them by operation.",
+    "thumbnail": "changed-elements-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:changedelements",
+        "api-group-id:project-delivery"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

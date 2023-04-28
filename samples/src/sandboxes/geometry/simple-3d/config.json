@@ -1,0 +1,23 @@
+{
+    "id": "1b1f5d82-ea5e-4328-8ba8-4d4860fcb853",
+    "name": "Simple 3d",
+    "entryFile": "Simple3dApp.tsx",
+    "files": [
+        "Simple3d.scss",
+        "Simple3dApi.ts",
+        "Simple3dApp.tsx",
+        "Simple3dWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Geometry #sample showing how to generate #simple types of #3d geometry.",
+    "thumbnail": "simple-3d-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

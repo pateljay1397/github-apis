@@ -1,0 +1,62 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-areas:
+    "header header"
+    "maincontent maincontent";
+  justify-content: center;
+  background-color: #252424;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: fit-content;
+  gap: 10px;
+}
+
+.app-ui {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  min-height: 100%;
+  min-width: fit-content;
+  grid-area: maincontent
+}
+
+.team-banner {
+  display: inline-flex;
+  width: 765px;
+  height: 142px;
+  background-color: white;
+  grid-area: header;
+}
+
+.team-banner img {
+  width: 20%;
+}
+
+.team-banner h1 {
+  text-align: center;
+  margin: auto;
+  color: black;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.game-details {
+  padding: 15px;
+}
+
+.model-view {
+  height: 50%;
+}
+
+.custom-alert {
+  margin-top: 10px;
+  filter: brightness(0.9);
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(90, 104, 114);
+}

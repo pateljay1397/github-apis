@@ -1,0 +1,78 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-options {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  display: grid;
+  grid-template: min-content 1fr / 1fr;
+  gap: 16px;
+
+  .sample-grid {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+
+    .place-btn .iui-button-label {
+      display: block;
+      width: 120px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .active-emitter-sliders {
+      flex: 1;
+      display: grid;
+      row-gap: 8px;
+      grid-template-columns: 1fr;
+
+      .slider {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+
+        .iui-slider-component-container {
+          flex: 1;
+          min-width: 150px;
+        }
+      }
+
+      .slider-label {
+        min-width: 60px;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      flex: 1;
+
+      .toggles {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 8px;
+        column-gap: 16px;
+      }
+
+      .iui-button {
+        flex: 1;
+      }
+    }
+  }
+
+  .instructions {
+    justify-self: start;
+    align-self: end;
+  }
+}

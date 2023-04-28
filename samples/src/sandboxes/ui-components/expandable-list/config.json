@@ -1,0 +1,21 @@
+{
+    "id": "5d10bfa7-14c6-428e-8e64-3650093ca41c",
+    "name": "Expandable Lists",
+    "entryFile": "ExpandableList.tsx",
+    "files": [
+        "ExpandableList.tsx",
+        "readme.md"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #expandable #lists.",
+    "thumbnail": "ui-expandable-list-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

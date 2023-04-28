@@ -1,0 +1,37 @@
+{
+    "id": "dd5f0758-95b6-46c8-beb4-13428d6b4098",
+    "name": "Frontstage-Introduction",
+    "entryFile": "FrontstageIntroductionApp.tsx",
+    "files": [
+        "FrontstageIntroductionApp.tsx",
+        "readme.md",
+        "FrontstageIntroduction.scss",
+        "ModalWithMessage.tsx",
+        "FrontstageSwapperToolbarProvider.tsx",
+        "frontstages/InstructionsFrontstage.ts",
+        "frontstages/DefaultFrontstage.ts",
+        "frontstages/TwoViewportsFrontstage.ts",
+        "frontstages/ViewAttributesFrontstage.ts",
+        "public/3d.svg",
+        "view-attributes/ViewAttributes.scss",
+        "view-attributes/ViewAttributesApi.ts",
+        "view-attributes/ViewAttributesWidget.tsx"
+    ],
+    "description": "This sample provides a series of examples on how to declare and swap between Frontstages.",
+    "thumbnail": "fronstage-introduction-thumbnail.jpg",
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup",
+        "geometry-decorator"
+    ],
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "extonCampus"
+    ]
+}

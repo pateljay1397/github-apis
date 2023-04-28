@@ -1,0 +1,26 @@
+{
+    "id": "cc24218c-042a-4a96-b54a-f25beb570965",
+    "name": "Global Display",
+    "entryFile": "GlobalDisplayApp.tsx",
+    "files": [
+        "GlobalDisplay.scss",
+        "GlobalDisplayApi.ts",
+        "GlobalDisplayApp.tsx",
+        "GlobalDisplayWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options"
+    ],
+    "description": "This sandbox demonstrates the display of global data sources and globe-based navigation #terrain #buildings #global #location #maps",
+    "thumbnail": "global-display-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

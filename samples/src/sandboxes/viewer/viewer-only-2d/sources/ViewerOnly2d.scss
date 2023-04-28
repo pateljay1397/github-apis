@@ -1,0 +1,26 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-options {
+  padding: 8px;
+
+  &-selector {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    &-label {
+      margin-right: 16px;
+    }
+  }
+}
+
+.instructions {
+  margin-top: 16px;
+}
+
+.sample-dropdown-button {
+  margin: 0px 16px;
+}

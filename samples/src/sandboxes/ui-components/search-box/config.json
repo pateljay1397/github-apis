@@ -1,0 +1,21 @@
+{
+    "id": "7e9541c2-02cd-4945-9708-ca93eec0389e",
+    "name": "Search Boxes",
+    "entryFile": "SearchBox.tsx",
+    "files": [
+        "readme.md",
+        "SearchBox.tsx"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #search #boxes.",
+    "thumbnail": "ui-search-boxes-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

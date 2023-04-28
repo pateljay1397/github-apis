@@ -1,0 +1,29 @@
+{
+    "id": "1fd4dd9d-7834-4782-a112-99bcd1e45061",
+    "name": "Swiping Comparison",
+    "entryFile": "SwipingComparisonApp.tsx",
+    "files": [
+        "SwipingComparisonApi.ts",
+        "SwipingComparisonApp.tsx",
+        "SwipingComparisonWidget.tsx",
+        "SwipingComparison.scss",
+        "readme.md",
+        "Divider.scss",
+        "Divider.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Compare models and reality data using a #clip and a #TileGraphicsProvider in a single #viewport.",
+    "thumbnail": "swiping-viewport-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "extonCampus"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "31db97c1-19fa-4ade-aa32-3d0db7b88d41",
+    "name": "View Clipping",
+    "entryFile": "ViewClipApp.tsx",
+    "files": [
+        "readme.md",
+        "ViewClip.scss",
+        "ViewClipApi.ts",
+        "ViewClipApp.tsx",
+        "ViewClipWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "How to add a #ClipVolume, #ClipPlane, and #ViewClipDecorationProvider to a view to #clip the geometry",
+    "thumbnail": "view-clip-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "retailBuilding",
+        "metrostation",
+        "house",
+        "bayTownProcessPlant"
+    ]
+}

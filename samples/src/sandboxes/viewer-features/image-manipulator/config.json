@@ -1,0 +1,32 @@
+{
+    "id": "c62f45d4-2195-449b-8939-d2076c2ce635",
+    "name": "Image Manipulator",
+    "entryFile": "ImageManipulatorApp.tsx",
+    "files": [
+        "ImageManipulatorApp.tsx",
+        "visuals/ImageManipulatorGraphics.tsx",
+        "ImageManipulatorApi.tsx",
+        "ImageManipulatorTool.ts",
+        "visuals/ImageHandleProvider.ts",
+        "visuals/ImageDecorator.ts",
+        "public/ExtonFront1.jpg",
+        "public/ExtonSide1.jpg",
+        "widget/ImageManipulatorWidget.tsx",
+        "widget/ImageManipulatorWidget.scss",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "view-setup"
+    ],
+    "description": "Resize, rotate, and change the transparency of images in the viewer!",
+    "thumbnail": "image-manipulator-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "extonCampus"
+    ]
+}

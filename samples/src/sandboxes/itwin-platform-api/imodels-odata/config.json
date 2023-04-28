@@ -1,0 +1,36 @@
+{
+  "id": "9c43bbb5-826a-4120-a9ac-c52285bfb390",
+  "name": "iModels OData",
+  "entryFile": "IModelODataApp.tsx",
+  "files": [
+    "IModelODataApp.tsx",
+    "MappingOData.scss",
+    "MappingOData.tsx",
+    "MappingODataUiProvider.tsx",
+    "OData.ts",
+    "readme.md"
+  ],
+  "commonFiles": [
+    "authorization-client",
+    "map-layer-options",
+    "view-setup"
+  ],
+  "description": "Access iModel data using OData interface",
+  "thumbnail": "odata-thumbnail.jpg",
+  "attributes": [
+    "itwin-version:3.x",
+    "api-path:insights/imodels-odata",
+    "api-group-id:reporting-insights"
+  ],
+  "iModels": [
+    "metrostation",
+    "coffsHarborDemo"
+  ],
+  "modules": [
+    {
+      "external": false,
+      "name": "@itwin/insights-client",
+      "version": "^0.2.1"
+    }
+  ]
+}

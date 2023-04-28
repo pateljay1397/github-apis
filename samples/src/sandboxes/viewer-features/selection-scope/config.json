@@ -1,0 +1,38 @@
+{
+    "id": "f3b5e0e5-c65d-4ff5-bd90-a47f4716e083",
+    "name": "Selection Scope - Geometric Elements",
+    "entryFile": "SelectionScopeApp.tsx",
+    "files": [
+        "readme.md",
+        "SelectionScopeApp.tsx",
+        "SelectionScopeWidgetProvider.tsx",
+        "ContextProvider.tsx",
+        "Interfaces.tsx",
+        "widgets/DetailsWidget.tsx",
+        "widgets/ElementPickerWidget.tsx",
+        "tools/NoSelectionTool.ts",
+        "components/ParentTree.tsx",
+        "components/HilitedElements.tsx",
+        "components/HelpIcon.tsx",
+        "apis/EmphasizeElementsApi.ts",
+        "apis/HelperFunctions.ts",
+        "apis/HiliteElementsApi.ts",
+        "apis/useHiliteElementsApi.tsx",
+        "SelectionScope.scss"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Allows you to explore how #SelectionScope works. Using an element id and various scopes, calculate what Geometric Element(s) would be selected/highlighted using #Presentation and #HiliteSetProvider.",
+    "thumbnail": "selection-scope-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "bayTownProcessPlant"
+    ]
+}

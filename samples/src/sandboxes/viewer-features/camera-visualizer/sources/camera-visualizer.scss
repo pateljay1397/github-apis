@@ -1,0 +1,110 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-top-level {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+}
+
+.sample-nameCol-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.sample-nameCol-Outer {
+  text-align:"left";
+  padding-left:"16px";
+  text-decoration:"underline";
+  max-width:"269px";
+}
+
+.sample-sliderbox {
+  padding-bottom: 4px;
+}
+
+.sample-spacearound-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.sample-spacebetween-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.sample-dual-content {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.sample-options {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  padding-left: 16px;
+  justify-content: space-around;
+  min-width: 242px;
+}
+
+.sample-table-div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  height: 170px;
+  min-height: 170px;
+  border: 2px;
+  border-style: solid;
+  min-width: 435px;
+}
+
+.sample-table-div2 {
+  width: 50%;
+
+  border: 2px;
+  border-style: solid;
+  min-width: 500px;
+}
+
+.uifw-contentlayout-overlay-active:after {
+  content: "";
+  box-shadow: inset 0 0 10px #a5d7f5;
+  pointer-events: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.uifw-contentlayout-overlay-active {
+  border-color: #a5d7f5 !important;
+  border-width: 2px !important;
+}
+
+
+.firstViewport {
+  border-top-color: #FFC20A !important;
+  border-bottom-color: #0C7BDC !important;
+  border-width: 7px !important;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
+}

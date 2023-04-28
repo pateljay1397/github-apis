@@ -1,0 +1,25 @@
+{
+    "id": "8c33d7cd-8bd6-49e0-b75a-793f29691b06",
+    "name": "Closest Point on Curve",
+    "entryFile": "ClosestPointOnCurveApp.tsx",
+    "files": [
+        "ClosestPointOnCurve.scss",
+        "ClosestPointOnCurveApi.ts",
+        "ClosestPointOnCurveApp.tsx",
+        "ClosestPointOnCurveWidget.tsx",
+        "SampleCurveFactory.ts",
+        "InteractivePointMarker.ts",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Geometry #sample showing how to find the #closest #point on a #curve by using the #closestPoint method.",
+    "thumbnail": "closest-point-curve-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

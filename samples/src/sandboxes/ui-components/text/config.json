@@ -1,0 +1,17 @@
+{
+    "id": "f96c2ca4-b899-427d-b5ab-4d47d26076d0",
+    "name": "Text",
+    "entryFile": "Text.tsx",
+    "files": [
+        "readme.md",
+        "Text.tsx"
+    ],
+    "symlinks":[
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #text.",
+    "thumbnail": "ui-text-thumbnail.jpg",
+    "attributes": ["itwin-version:3.x", "api-path:visualization", "api-group-id:visualization"]
+}

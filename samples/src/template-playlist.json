@@ -1,0 +1,14 @@
+[
+  {
+    "id": "11126db4-76ad-4fde-9844-238390d4e2e1",
+    "name": "Sandbox Templates",
+    "description": "Contains sandboxes to be used as templates",
+    "attributes": [
+      "templates"
+    ],
+    "members": [
+      "templates/basic-viewport",
+      "templates/geometry"
+    ]
+  }
+]

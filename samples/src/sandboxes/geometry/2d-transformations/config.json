@@ -1,0 +1,24 @@
+{
+    "id": "cfe1e2cd-4f5c-4faa-8df5-0c4f5078da6c",
+    "name": "2d Transformations",
+    "entryFile": "2dTransformationsApp.tsx",
+    "files": [
+        "2dTransformations.scss",
+        "2dTransformationsApi.ts",
+        "2dTransformationsApp.tsx",
+        "2dTransformationsWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Geometry #sample showing how to generate, #translate, and #rotate different types of #2d geometry.",
+    "thumbnail": "2d-transformations-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": []
+}

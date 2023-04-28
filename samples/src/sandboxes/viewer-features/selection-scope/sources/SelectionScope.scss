@@ -1,0 +1,65 @@
+.element-picker-container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  gap: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-columns: repeat(auto-fit, minmax(178px, 1fr)); //178px was chosen as after this threshold the inputs are not aligned due to text-wrapping
+
+  .alert {
+    grid-row-start: span 2;
+  }
+}
+
+.table-with-search-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-with-button {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  align-items: end;
+  padding-bottom: 10px;
+}
+
+.centered-loading-radial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leading-with-help-icon {
+  text-decoration: underline;
+  margin: 11px 0;
+  text-align: center;
+}
+
+.tooltip {
+  padding: 0;
+}
+
+.table {
+  height: 100%;
+}
+
+.help-icon-sizing {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  height: 18px;
+  width: 16px;
+}
+
+.help-icon-coloring {
+  fill: white;
+}
+
+.help-icon-coloring-opaque {
+  fill: white;
+  fill-opacity: 0.25;
+}

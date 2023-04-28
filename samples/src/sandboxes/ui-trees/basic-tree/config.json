@@ -1,0 +1,24 @@
+{
+    "id": "c8315ba1-d509-4a2a-a1c7-369ae266d3a1",
+    "name": "Basic Tree",
+    "entryFile": "BasicTreeApp.tsx",
+    "files": [
+        "BasicTree.scss",
+        "BasicTreeApp.tsx",
+        "BasicTreeComponent.tsx",
+        "BlankFrontstage.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md",
+        "SampleDataProvider.ts"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to create a #simple tree using a #ControlledTree component.",
+    "thumbnail": "basic-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

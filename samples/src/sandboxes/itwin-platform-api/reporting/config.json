@@ -1,0 +1,28 @@
+{
+  "id": "6f6ed2b0-54b1-4645-8154-7c1b2c4eed21",
+  "name": "Reporting",
+  "entryFile": "App.tsx",
+  "files": [
+    "App.tsx",
+    "Reporting.scss",
+    "ReportingApi.ts",
+    "ReportingClient.ts",
+    "ReportingWidget.tsx",
+    "readme.md"
+  ],
+  "commonFiles": [
+    "authorization-client",
+    "map-layer-options"
+  ],
+  "description": "Request and visualize the data in an insights report of iModel",
+  "thumbnail": "reporting-thumbnail.jpg",
+  "attributes": [
+    "itwin-version:3.x",
+    "api-path:insights/reporting",
+    "api-group-id:reporting-insights"
+  ],
+  "iModels": [
+    "coffsHarborDemo",
+    "metrostation"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "id": "41a56397-f0f3-4bf0-b874-24f568b3e105",
+    "name": "Road Network Decoration",
+    "entryFile": "RoadNetworkApp.tsx",
+    "files": [
+        "public/intersection-point.png",
+        "public/road-point.png",
+        "readme.md",
+        "RoadDecoration.scss",
+        "RoadDecorationApi.ts",
+        "RoadDecorationWidget.tsx",
+        "RoadDecorator.tsx",
+        "RoadNetworkApp.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "open-street-map-api"
+    ],
+    "description": "Viszualizes a #road #network by combining #OpenStreetMap data with a #Decorator",
+    "thumbnail": "road-network-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "stadium"
+    ],
+    "modules": [
+        {
+            "external": false,
+            "name": "ts-debounce",
+            "version": "4.x"
+        }
+    ]
+}

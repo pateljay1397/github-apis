@@ -1,0 +1,33 @@
+{
+    "id": "dc1910b2-a6dc-4848-81c1-df4e9d20ccdd",
+    "name": "Clash Review",
+    "entryFile": "ClashReviewApp.tsx",
+    "files": [
+        "readme.md",
+        "ClashDetectionClient.ts",
+        "ClashReview.scss",
+        "ClashReviewApi.ts",
+        "ClashReviewApp.tsx",
+        "ClashTestsWidget.tsx",
+        "ClashResultsWidget.tsx",
+        "ClashSuppressionRulesWidget.tsx",
+        "ClashRunsWidget.tsx",
+        "SettingsWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "marker-pin-decorator",
+        "popup-menu",
+        "view-setup"
+    ],
+    "description": "Uses the #validation REST api to get and visualize #clash results.",
+    "thumbnail": "clashreview-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:clashdetection",
+        "api-group-id:validation"
+    ],
+    "iModels": [
+        "bayTownProcessPlant"
+    ]
+}

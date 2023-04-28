@@ -1,0 +1,21 @@
+{
+    "id": "29789acf-3ba4-4954-82a2-5d0dba7eb2d8",
+    "name": "Loading",
+    "entryFile": "Loading.tsx",
+    "files": [
+        "Loading.tsx",
+        "readme.md"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #loading #icons.",
+    "thumbnail": "ui-loading-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

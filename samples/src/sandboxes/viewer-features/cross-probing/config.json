@@ -1,0 +1,27 @@
+{
+    "id": "18f5a227-1aa2-4f2f-b692-4d269cc56400",
+    "name": "Cross-Probing",
+    "entryFile": "CrossProbingApp.tsx",
+    "files": [
+        "CrossProbingApi.ts",
+        "CrossProbingApp.tsx",
+        "CrossProbingFrontstageProvider.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "This sample demonstrates how to implement basic cross-probing between 2D and 3D elements given an iModel of a Plant",
+    "thumbnail": "cross-probing-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "bayTownProcessPlant"
+    ]
+}

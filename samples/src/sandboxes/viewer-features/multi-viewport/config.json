@@ -1,0 +1,33 @@
+{
+    "id": "8a4d5108-1f1c-472e-9749-ed15c7f90454",
+    "name": "Multiple Viewports",
+    "entryFile": "MultiViewportApp.tsx",
+    "files": [
+        "multi-view-sample.scss",
+        "MultiViewportApi.ts",
+        "MultiViewportApp.tsx",
+        "MultiViewportFrontstageProvider.tsx",
+        "MultiViewportWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Demonstrates displaying two viewports showing the same 3d model",
+    "thumbnail": "multi-viewport-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "retailBuilding",
+        "bayTownProcessPlant",
+        "house",
+        "stadium",
+        "extonCampus"
+    ]
+}

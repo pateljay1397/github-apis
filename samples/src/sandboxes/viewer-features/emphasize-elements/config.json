@@ -1,0 +1,32 @@
+{
+    "id": "5180d906-3629-476b-90bc-d7e0d04e0dc9",
+    "name": "Emphasize Elements",
+    "entryFile": "EmphasizeElementsApp.tsx",
+    "files": [
+        "EmphasizeElements.scss",
+        "EmphasizeElementsApi.tsx",
+        "EmphasizeElementsApp.tsx",
+        "EmphasizeElementsWidget.tsx",
+        "readme.md",
+        "walkthrough.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "How to #emphasize, #hide, #isolate, and #override the #color of elements using the #EmphasizeElements API.",
+    "thumbnail": "emphasize-elements-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "retailBuilding",
+        "metrostation",
+        "bayTownProcessPlant",
+        "house",
+        "stadium"
+    ]
+}

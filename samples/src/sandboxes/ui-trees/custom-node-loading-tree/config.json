@@ -1,0 +1,28 @@
+{
+    "id": "3dd5e479-81b0-4e4b-9325-4bdbcb81c150",
+    "name": "Custom Node Loading Tree",
+    "entryFile": "CustomNodeLoadingTreeApp.tsx",
+    "files": [
+        "BlankFrontstage.tsx",
+        "CustomNodeLoadingTree.scss",
+        "CustomNodeLoadingTreeApp.tsx",
+        "CustomNodeLoadingTreeComponent.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md",
+        "SampleDataProvider.ts",
+        "TreeHierarchy.ts"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to create two different trees, one that loads data from #memory, and the other using #presentation #rules.",
+    "thumbnail": "custom-node-loading-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

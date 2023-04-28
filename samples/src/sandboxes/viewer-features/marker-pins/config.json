@@ -1,0 +1,39 @@
+{
+    "id": "cfb50148-c585-4ea4-83c3-b171b6e640ec",
+    "name": "Marker Pins",
+    "entryFile": "MarkerPinApp.tsx",
+    "files": [
+        "MarkerPin.scss",
+        "MarkerPinApi.ts",
+        "MarkerPinApp.tsx",
+        "MarkerPinWidget.tsx",
+        "public/pin_celery.svg",
+        "public/pin_google_maps.svg",
+        "public/pin_poloblue.svg",
+        "readme.md",
+        "walkthrough.md"
+    ],
+    "commonFiles": [
+        "marker-pin-decorator",
+        "place-marker-tool",
+        "popup-menu",
+        "point-selector",
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Uses a #Decorator and a #MarkerSet to display #markers that indicate important locations in a model.",
+    "thumbnail": "marker-pin-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "retailBuilding",
+        "bayTownProcessPlant",
+        "house",
+        "stadium"
+    ]
+}

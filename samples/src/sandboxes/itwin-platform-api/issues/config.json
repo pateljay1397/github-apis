@@ -1,0 +1,30 @@
+{
+    "id": "d7203008-19a4-4c45-8c64-3f16cc8b396a",
+    "name": "Issues",
+    "entryFile": "IssuesApp.tsx",
+    "files": [
+        "Issues.scss",
+        "IssuesApi.ts",
+        "IssuesApp.tsx",
+        "IssuesClient.ts",
+        "IssuesWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "marker-pin-decorator",
+        "popup-menu",
+        "view-setup"
+    ],
+    "description": "Uses #issues REST #API to retrieve issues associated with project and display them.",
+    "thumbnail": "issues-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:issues",
+        "api-group-id:project-delivery"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

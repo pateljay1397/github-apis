@@ -1,0 +1,28 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-options {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  display: grid;
+  grid-template: min-content min-content 1fr / 1fr;
+  gap: 16px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.sample-grid {
+  display: grid;
+  row-gap: 16px;
+  column-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  align-items: end;
+}
+
+.instructions {
+  grid-row: 3;
+  align-self: end;
+}

@@ -1,0 +1,236 @@
+{
+    "id": "9f13d10d-5a9a-4a7e-a9c6-2767da9303b4",
+    "name": "Basic Viewport Template",
+    "description": "A #template for getting started with a basic #viewport.",
+    "thumbnail": "viewport-thumbnail.jpg",
+    "entryFile": "ViewportApp.tsx",
+    "files": [
+        "ViewportApp.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "attributes": [
+        "itwin-version:3.x"
+    ],
+    "iModels": [
+        "metrostation",
+        "bayTownProcessPlant",
+        "extonCampus",
+        "house",
+        "retailBuilding",
+        "stadium",
+        "coffsHarborDemo",
+        "philadelphia",
+        "villa"
+    ],
+    "modules": [
+        {
+            "external": false,
+            "name": "@itwin/core-bentley",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/appui-abstract",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "react",
+            "version": "^17.0.2"
+        },
+        {
+            "external": false,
+            "name": "react-dom",
+            "version": "^17.0.2"
+        },
+        {
+            "external": false,
+            "name": "@itwin/itwinui-icons-react",
+            "version": "^1.16.0"
+        },
+        {
+            "external": false,
+            "name": "@itwin/itwinui-react",
+            "version": "^2.2.0"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-react",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/appui-layout-react",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/components-react",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-geometry",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-common",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-orbitgt",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-quantity",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/webgl-compatibility",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-i18n",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-telemetry",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-frontend",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/core-markup",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/imodel-components-react",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/presentation-common",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/presentation-frontend",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/presentation-components",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/browser-authorization",
+            "version": "^0.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/appui-react",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/frontend-devtools",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/hypermodeling-frontend",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/imodels-client-management",
+            "version": "^1.1.0"
+        },
+        {
+            "external": false,
+            "name": "@itwin/imodels-access-frontend",
+            "version": "^1.0.2"
+        },
+        {
+            "external": false,
+            "name": "@itwin/map-layers",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/map-layers-auth",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/map-layers-formats",
+            "version": "^3.5.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/projects-client",
+            "version": "^0.7.0"
+        },
+        {
+            "external": false,
+            "name": "@itwin/reality-data-client",
+            "version": "^0.9.0"
+        },
+        {
+            "external": false,
+            "name": "@itwin/viewer-react",
+            "version": "^3.3.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/web-viewer-react",
+            "version": "^3.1.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/insights-client",
+            "version": "^0.3.4"
+        },
+        {
+            "external": false,
+            "name": "@itwin/grouping-mapping-widget",
+            "version": "^0.9.2"
+        },
+        {
+            "external": false,
+            "name": "@itwin/clash-detection-client",
+            "version": "^0.2.0"
+        },
+        {
+            "external": false,
+            "name": "@itwin/measure-tools-react",
+            "version": "^0.10.6"
+        },
+        {
+            "external": false,
+            "name": "@itwin/property-grid-react",
+            "version": "^0.8.1"
+        },
+        {
+            "external": false,
+            "name": "@itwin/tree-widget-react",
+            "version": "^0.6.0"
+        }
+    ]
+}

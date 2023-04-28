@@ -1,0 +1,17 @@
+{
+    "id": "c2d1247e-ec37-4e07-87bc-b8e0e9063f58",
+    "name": "Tabs",
+    "entryFile": "Tabs.tsx",
+    "files": [
+        "readme.md",
+        "Tabs.tsx"
+    ],
+    "symlinks":[
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #tabs.",
+    "thumbnail": "ui-tabs-thumbnail.jpg",
+    "attributes": ["itwin-version:3.x", "api-path:visualization", "api-group-id:visualization"]
+}

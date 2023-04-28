@@ -1,0 +1,32 @@
+{
+  "id": "c4ffb6b5-5e92-4912-852d-ddda8285369e",
+  "name": "Grouping Mapping Widget",
+  "entryFile": "GroupingMappingApp.tsx",
+  "files": [
+    "GroupingMappingApp.tsx",
+    "LazyLoadedInMemoryDb/CCalculatedProperty.ts",
+    "LazyLoadedInMemoryDb/CCustomCalculation.ts",
+    "LazyLoadedInMemoryDb/CGroup.ts",
+    "LazyLoadedInMemoryDb/CGroupProperty.ts",
+    "LazyLoadedInMemoryDb/CMapping.ts",
+    "LazyLoadedInMemoryDb/MappingClientError.ts",
+    "LazyLoadedInMemoryDb/Utils.ts",
+    "LazyLoadingInMemoryMappingClient.ts",
+    "readme.md"
+  ],
+  "commonFiles": [
+    "authorization-client",
+    "map-layer-options",
+    "view-setup"
+  ],
+  "description": "Demonstrates iTwin Grouping & Mapping Widget with in-memory database",
+  "thumbnail": "grouping-mapping-thumbnail.jpg",
+  "attributes": [
+    "itwin-version:3.x",
+    "api-path:insights/reporting",
+    "api-group-id:reporting-insights"
+  ],
+  "iModels": [
+    "metrostation"
+  ]
+}

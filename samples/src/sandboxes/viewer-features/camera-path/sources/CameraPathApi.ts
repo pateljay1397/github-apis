@@ -1,0 +1,116 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+import { Viewport } from "@itwin/core-frontend";
+import { CurveChainWithDistanceIndex, CurveLocationDetail, LineString3d, Path, Point3d, Vector3d } from "@itwin/core-geometry";
+import { pathDefinition } from "./Coordinates";
+
+export interface CameraPathPoint {
+  eyePoint: Point3d;
+  targetPoint: Point3d;
+}
+
+/** This class implements the interaction between the sample and the iTwin.js API.  No user interface. */
+export default class CameraPathApp {
+
+  public static changeCameraPositionAndTarget(cameraPoint: CameraPathPoint, viewport: Viewport, changeCameraTargetOnly: boolean = false) {
+    if (viewport.view.is3d()) {
+      if (changeCameraTargetOnly) {
+        viewport.view.setEyePoint(cameraPoint.eyePoint);
+      } else {
+        viewport.view.lookAt({ eyePoint: cameraPoint.eyePoint, targetPoint: cameraPoint.targetPoint, upVector: new Vector3d(0, 0, 1), lensAngle: viewport.view.camera.lens });
+      }
+    }
+    viewport.synchWithView();
+  }
+
+  // Turn the viewport camera on
+  public static prepareView(vp: Viewport) {
+    vp.turnCameraOn();
+    vp.synchWithView();
+  }
+}
+
+// A CameraPath consists of a CurveChain representing the camera location and an array
+// of TargetPoints representing the camera TargetPoint at each point.
+export class CameraPath {
+  private _path: CurveChainWithDistanceIndex | undefined;
+  private _targetPoints: Point3d[] = [];
+
+  constructor(public pathName: string) {
+    const currentPathCoordinates = pathDefinition[pathName];
+    const targetPoints: Point3d[] = [];
+
+    currentPathCoordinates.forEach((item: any) => {
+      targetPoints.push(new Point3d(item.targetPoint.x, item.targetPoint.y, item.targetPoint.z));
+    });
+    const line: LineString3d = LineString3d.create();
+    currentPathCoordinates.forEach((item: any) => {
+      line.addPoint(new Point3d(item.eyePoint.x, item.eyePoint.y, item.eyePoint.z));
+    });
+    const path = CurveChainWithDistanceIndex.createCapture(Path.create(line));
+    if (path !== undefined) {
+      this._path = path;
+      this._targetPoints = targetPoints;
+    }
+  }
+
+  public getLength() {
+    if (!this._path)
+      throw new Error("Path was not loaded");
+
+    return this._path.curveLength();
+  }
+
+  public advanceAlongPath(currentFraction: number, distanceInMeters: number) {  // return the new fraction
+    let globalFractionOfPathTravelled: number = 0;
+    if (this._path)
+      globalFractionOfPathTravelled = this._path.moveSignedDistanceFromFraction(currentFraction, distanceInMeters, false).fraction;
+    return globalFractionOfPathTravelled;
+  }
+
+  public getPathPoint(fraction: number) {   // return CameraPoint
+    if (!this._path)
+      throw new Error("Path was not loaded");
+
+    const eyePoint = this._path.fractionToPoint(fraction);
+    const targetPoint = this._getTargetPoint(eyePoint);
+
+    return { eyePoint, targetPoint };
+  }
+
+  private _getTargetPoint(point: Point3d) {
+    if (!this._path)
+      throw new Error("Path was not loaded");
+
+    // Based on the current point, figure out which segment we are on, and how far along that segment.
+    const detail = this._path.closestPoint(point, false);
+    if (!detail || !detail.childDetail)
+      throw new Error("Invalid path");
+
+    const lineString = detail.childDetail.curve as LineString3d;
+    const numPoints = lineString.packedPoints.length;
+    const { segmentIndex, segmentFraction } = this._getSegmentIndexAndLocalFraction(detail, numPoints);
+
+    // If we are standing on the last point, just return the last point
+    if (numPoints - 1 === segmentIndex)
+      return new Point3d(this._targetPoints[segmentIndex].x, this._targetPoints[segmentIndex].y, this._targetPoints[segmentIndex].z);
+
+    // We are in between two points of the path, interpolate between the two points
+    const prevTargetPoint = this._targetPoints[segmentIndex];
+    const nextTargetPoint = this._targetPoints[segmentIndex + 1];
+    return prevTargetPoint.interpolate(segmentFraction, nextTargetPoint);
+  }
+
+  private _getSegmentIndexAndLocalFraction(detail: CurveLocationDetail, numPoints: number) {
+    let segmentIndex: number = 0;
+    let segmentFraction: number = 0;
+    if (detail.childDetail) {
+      const scaledFraction = detail.childDetail.fraction * (numPoints - 1);
+      segmentIndex = Math.floor(scaledFraction);
+      segmentFraction = scaledFraction - segmentIndex;
+    }
+    return { segmentIndex, segmentFraction };
+  }
+}

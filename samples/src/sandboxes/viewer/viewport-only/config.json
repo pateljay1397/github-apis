@@ -1,0 +1,32 @@
+{
+    "id": "483a9a98-d509-44ed-9699-a5bc8e7085a8",
+    "name": "3d Viewer",
+    "entryFile": "ViewportOnlyApp.tsx",
+    "files": [
+        "InstructionsWidgetProvider.tsx",
+        "ViewportOnlyApp.tsx",
+        "readme.md",
+        "walkthrough.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "This is the simplest iTwin.js frontend example. It displays a viewport and shows a view navigation toolbar",
+    "thumbnail": "viewport-only-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "retailBuilding",
+        "bayTownProcessPlant",
+        "house",
+        "stadium",
+        "extonCampus",
+        "villa"
+    ]
+}

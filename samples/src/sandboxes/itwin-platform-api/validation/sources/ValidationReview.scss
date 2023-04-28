@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-options {
+  padding: 8px;
+
+  &-block {
+    margin-bottom: 16px;
+  }
+
+  &-button {
+    width: 100%;
+  }
+}
+
+.iui-table-header .iui-checkbox {
+  display: none;
+}
+
+.no-icon {
+  svg {
+    display: none;
+  }
+}

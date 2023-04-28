@@ -1,0 +1,27 @@
+{
+    "id": "a028cb8a-8cd6-483b-9074-dc2aafa83dc2",
+    "name": "Mesh Export",
+    "entryFile": "MeshExportApp.tsx",
+    "files": [
+        "MeshExport.scss",
+        "MeshExportApp.tsx",
+        "MeshExportWidget.tsx",
+        "MeshExportClient.ts",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Use the Mesh Export API to create GLTF files from the visible iModel elements in a viewport.",
+    "thumbnail": "mesh-export-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:mesh-export",
+        "api-group-id:synchronization"
+    ],
+    "iModels": [
+        "retailBuilding"
+    ]
+}

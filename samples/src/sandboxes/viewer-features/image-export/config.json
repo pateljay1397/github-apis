@@ -1,0 +1,28 @@
+{
+    "id": "a2d84a9e-bdc2-4aea-848f-7f244f360278",
+    "name": "Image Export",
+    "entryFile": "ImageExportApp.tsx",
+    "files": [
+        "ImageExport.scss",
+        "ImageExportApi.ts",
+        "ImageExportApp.tsx",
+        "ImageExportWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Exports visible viewport of iModel as PNG image. #ImageExport",
+    "thumbnail": "image-export-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "villa"
+    ]
+}

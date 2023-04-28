@@ -1,0 +1,27 @@
+{
+    "id": "0d1a3def-21a0-4f6f-b460-79193fc072c7",
+    "name": "IoT Alerts",
+    "entryFile": "IotAlertApp.tsx",
+    "files": [
+        "IotAlert.scss",
+        "IotAlert.tsx",
+        "IotAlertApi.tsx",
+        "IotAlertApp.tsx",
+        "IotAlertWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "view-setup"
+    ],
+    "description": "How to simulate out-of-bound condition from a #sensor and trigger #IotAlert, #blinking effect",
+    "thumbnail": "iot-alert-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "bayTownProcessPlant"
+    ]
+}

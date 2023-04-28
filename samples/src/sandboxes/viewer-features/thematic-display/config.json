@@ -1,0 +1,28 @@
+{
+    "id": "5213cb53-4226-4d1a-aeda-839f42f12144",
+    "name": "Thematic Display",
+    "entryFile": "ThematicDisplayApp.tsx",
+    "files": [
+        "readme.md",
+        "ThematicDisplay.scss",
+        "ThematicDisplayApi.ts",
+        "ThematicDisplayApp.tsx",
+        "ThematicDisplayWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Renders using #thematic display by changing the #styles.",
+    "thumbnail": "thematic-display-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "coffsHarborDemo",
+        "retailBuilding"
+    ]
+}

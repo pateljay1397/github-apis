@@ -1,0 +1,31 @@
+{
+    "id": "2f29a62e-2085-4c2b-a3e6-e85a444fbfaf",
+    "name": "Transformations",
+    "entryFile": "TransformationsApp.tsx",
+    "files": [
+        "readme.md",
+        "transformations.scss",
+        "TransformationsApi.ts",
+        "TransformationsApp.tsx",
+        "TransformationsClient.ts",
+        "TransformationsFrontstageProvider.tsx",
+        "TransformationsWidget.tsx",
+        "TwoWayViewportSync.ts",
+        "walkthrough.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "How use the #Transformations #API to transform an iModel into another, and display them.",
+    "thumbnail": "transformation-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:transformations",
+        "api-group-id:synchronization"
+    ],
+    "iModels": [
+        "stadium"
+    ]
+}

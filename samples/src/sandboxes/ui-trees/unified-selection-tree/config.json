@@ -1,0 +1,28 @@
+{
+    "id": "aa22fec5-2af5-4f48-a370-dea16f87c662",
+    "name": "Unified Selection Tree",
+    "entryFile": "UnifiedSelectionTreeApp.tsx",
+    "files": [
+        "InstructionsWidgetProvider.tsx",
+        "TreeHierarchy.ts",
+        "UnifiedSelectionTree.scss",
+        "UnifiedSelectionTreeApp.tsx",
+        "UnifiedSelectionTreeWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "#Tree #sample showing how to use #events that interact with a #viewport using #useUnifiedSelectionTreeEventHandler.",
+    "thumbnail": "unified-selection-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

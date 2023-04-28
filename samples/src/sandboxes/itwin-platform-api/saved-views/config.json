@@ -1,0 +1,39 @@
+{
+  "id": "dc484efa-66dc-4444-9a14-d947a7f9ed05",
+  "name": "Saved Views",
+  "entryFile": "SavedViewsApp.tsx",
+  "files": [
+    "public/Blue_Chairs.png",
+    "public/Chairs.png",
+    "public/Framing_Phase1.png",
+    "public/ZoneA_1F.png",
+    "public/ZoneA_2F.png",
+    "public/ZoneA_3F.png",
+    "public/ZoneE_BF.png",
+    "SavedViewItwinJsViewStateParser.ts",
+    "SavedViews.scss",
+    "SavedViewsApi.ts",
+    "SavedViewsApp.tsx",
+    "SavedViewsClient.ts",
+    "SavedViewsInterfaces.ts",
+    "SavedViewsJsonData.ts",
+    "SavedViewsWidget.tsx",
+    "readme.md"
+  ],
+  "commonFiles": [
+    "authorization-client",
+    "map-layer-options",
+    "view-setup"
+  ],
+  "description": "Uses the #REST api to store, share, organize, and retrieve #saved views.",
+  "thumbnail": "savedviews-thumbnail.jpg",
+  "attributes": [
+    "itwin-version:3.x",
+    "api-path:savedviews",
+    "api-group-id:internal"
+  ],
+  "iModels": [
+    "stadium",
+    "metrostation"
+  ]
+}

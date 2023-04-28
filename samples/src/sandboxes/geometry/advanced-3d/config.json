@@ -1,0 +1,23 @@
+{
+    "id": "2943f6f9-3c37-418f-bf2c-2f15ee5b082b",
+    "name": "Advanced 3d",
+    "entryFile": "Advanced3dApp.tsx",
+    "files": [
+        "Advanced3d.scss",
+        "Advanced3dApi.ts",
+        "Advanced3dApp.tsx",
+        "Advanced3dWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Geometry #sample showing how to generate several #3d pieces of geometry including #mitered #pipes, #rotational, #linear, and #ruled, #sweeps.",
+    "thumbnail": "advanced-3d-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

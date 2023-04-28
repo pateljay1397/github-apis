@@ -1,0 +1,38 @@
+.main-wrapper {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  row-gap: 20px;
+  height: 100%;
+}
+
+.price-wrapper {
+  grid-row-start: -1;
+}
+
+.price-subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.ticket-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.price-wrapper Button {
+  width: 100%;
+}
+
+.title-text {
+  margin-bottom: 10px;
+  font-weight: 500;
+}

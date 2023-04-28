@@ -1,0 +1,27 @@
+{
+    "id": "b0a3e4ec-300c-4a9e-887a-765d598864c5",
+    "name": "Presentation Tree",
+    "entryFile": "PresentationTreeApp.tsx",
+    "files": [
+        "BlankFrontstage.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "PresentationTree.scss",
+        "PresentationTreeApp.tsx",
+        "PresentationTreeComponent.tsx",
+        "TreeHierarchy.ts",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to create a #simple tree using a #ControlledTree component.",
+    "thumbnail": "presentation-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

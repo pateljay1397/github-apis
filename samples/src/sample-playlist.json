@@ -1,0 +1,159 @@
+[
+  {
+    "id": "029f2113-7648-4fe5-a7d6-664584776c61",
+    "name": "iTwin Platform APIs",
+    "description": "Demonstrates usage of iTwin Platform APIs",
+    "attributes": [
+      "showcase",
+      "showcase-index:00"
+    ],
+    "members": [
+      "sandboxes/itwin-platform-api/changed-elements",
+      "sandboxes/itwin-platform-api/clash-review",
+      "sandboxes/itwin-platform-api/grouping-mapping-widget",
+      "sandboxes/itwin-platform-api/issues",
+      "sandboxes/itwin-platform-api/saved-views",
+      "sandboxes/itwin-platform-api/transformations",
+      "sandboxes/itwin-platform-api/validation",
+      "sandboxes/itwin-platform-api/reporting",
+      "sandboxes/itwin-platform-api/imodels-odata",
+      "sandboxes/itwin-platform-api/mesh-export"
+    ]
+  },
+  {
+    "id": "bc63ccdd-1af4-4874-8095-1e2cbaa85d84",
+    "name": "Viewer",
+    "description": "Demonstrates basic viewer usage",
+    "attributes": [
+      "showcase",
+      "showcase-index:01"
+    ],
+    "members": [
+      "sandboxes/viewer/global-display",
+      "sandboxes/viewer/reality-data",
+      "sandboxes/viewer/view-attributes",
+      "sandboxes/viewer/viewer-only-2d",
+      "sandboxes/viewer/viewport-only"
+    ]
+  },
+  {
+    "id": "f6ea1c45-df27-4d1b-b7d5-2a18c5e26a0a",
+    "name": "Viewer Features",
+    "description": "Demonstrates various viewer features",
+    "attributes": [
+      "showcase",
+      "showcase-index:02"
+    ],
+    "members": [
+      "sandboxes/viewer-features/background-colors",
+      "sandboxes/viewer-features/camera-path",
+      "sandboxes/viewer-features/car-decorator",
+      "sandboxes/viewer-features/classifier",
+      "sandboxes/viewer-features/cross-probing",
+      "sandboxes/viewer-features/display-styles",
+      "sandboxes/viewer-features/emphasize-elements",
+      "sandboxes/viewer-features/exploded-view",
+      "sandboxes/viewer-features/fire-decorator",
+      "sandboxes/viewer-features/heatmap-decorator",
+      "sandboxes/viewer-features/hypermodeling",
+      "sandboxes/viewer-features/image-export",
+      "sandboxes/viewer-features/image-manipulator",
+      "sandboxes/viewer-features/iot-alerts",
+      "sandboxes/viewer-features/marker-pins",
+      "sandboxes/viewer-features/multi-viewport",
+      "sandboxes/viewer-features/property-formatting",
+      "sandboxes/viewer-features/road-network",
+      "sandboxes/viewer-features/scientific-visualization",
+      "sandboxes/viewer-features/screen-space-effects",
+      "sandboxes/viewer-features/serialize-view",
+      "sandboxes/viewer-features/shadow-study",
+      "sandboxes/viewer-features/snow-decorator",
+      "sandboxes/viewer-features/stadium-section-viewer",
+      "sandboxes/viewer-features/swiping-viewport",
+      "sandboxes/viewer-features/thematic-display",
+      "sandboxes/viewer-features/tooltip-customize",
+      "sandboxes/viewer-features/view-clip",
+      "sandboxes/viewer-features/volume-query",
+      "sandboxes/viewer-features/zoom-to-elements",
+      "sandboxes/viewer-features/camera-visualizer",
+      "sandboxes/viewer-features/selection-scope"
+    ]
+  },
+  {
+    "id": "cbbddb93-6712-408b-9b07-6d9a3bd5686b",
+    "name": "App UI",
+    "description": "Demonstrates usage of App UI",
+    "attributes": [
+      "showcase",
+      "showcase-index:03"
+    ],
+    "members": [
+      "sandboxes/app-ui/toolbar-button-provider",
+      "sandboxes/app-ui/viewport-frontstage",
+      "sandboxes/app-ui/frontstage-introduction",
+      "sandboxes/app-ui/frontstage-widgets",
+      "sandboxes/app-ui/frontstage-toolbar",
+      "sandboxes/app-ui/frontstage-statusbar"
+    ]
+  },
+  {
+    "id": "3dc66e07-7479-434b-9a67-e959d0a8f124",
+    "name": "Geometry Samples",
+    "description": "Demonstrates basic manipulation of geometry",
+    "attributes": [
+      "showcase",
+      "showcase-index:04"
+    ],
+    "members": [
+      "sandboxes/geometry/simple-line",
+      "sandboxes/geometry/2d-transformations",
+      "sandboxes/geometry/closest-point-curve",
+      "sandboxes/geometry/curve-fraction",
+      "sandboxes/geometry/simple-3d",
+      "sandboxes/geometry/advanced-3d",
+      "sandboxes/geometry/simple-animated"
+    ]
+  },
+  {
+    "id": "23e155d6-9a01-42a3-9fa1-5874f42cf21a",
+    "name": "UI Components",
+    "description": "Demonstrates usage of UI components",
+    "attributes": [
+      "showcase",
+      "showcase-index:05"
+    ],
+    "members": [
+      "sandboxes/ui-components/badges",
+      "sandboxes/ui-components/button",
+      "sandboxes/ui-components/checklistbox",
+      "sandboxes/ui-components/expandable-list",
+      "sandboxes/ui-components/inputs",
+      "sandboxes/ui-components/loading",
+      "sandboxes/ui-components/search-box",
+      "sandboxes/ui-components/slider",
+      "sandboxes/ui-components/tabs",
+      "sandboxes/ui-components/text",
+      "sandboxes/ui-components/tiles",
+      "sandboxes/ui-components/toggle"
+    ]
+  },
+  {
+    "id": "d3b63103-20c5-42f4-b215-e89b2bb2f813",
+    "name": "UI Trees",
+    "description": "Demonstrates usage of UI Tree controls",
+    "attributes": [
+      "showcase",
+      "showcase-index:06"
+    ],
+    "members": [
+      "sandboxes/ui-trees/basic-tree",
+      "sandboxes/ui-trees/presentation-tree",
+      "sandboxes/ui-trees/custom-node-loading-tree",
+      "sandboxes/ui-trees/custom-table-node-tree",
+      "sandboxes/ui-trees/custom-event-handler-tree",
+      "sandboxes/ui-trees/custom-checkboxes-tree",
+      "sandboxes/ui-trees/unified-selection-tree",
+      "sandboxes/ui-trees/custom-webfont-icons-tree"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+    "id": "f956a3ca-3b07-4747-950a-d2143d1d65f0",
+    "name": "Frontstage-Toolbar",
+    "entryFile": "FrontstageToolbarApp.tsx",
+    "files": [
+        "FrontstageToolbarApp.tsx",
+        "readme.md",
+        "FrontstageToolbar.scss",
+        "CustomToolbarFrontstage.ts",
+        "CustomToolbarProvider.tsx",
+        "public/chevron-down.svg",
+        "public/compare.svg",
+        "public/map.svg",
+        "public/remove.svg",
+        "public/capybara.jpg",
+        "tools/Tools.tsx",
+        "tools/SimpleCustomTool.ts"
+    ],
+    "description": "Demonstrates how to customize the #Toolbar in a #Frontstage.",
+    "thumbnail": "frontstage-toolbar-thumbnail.jpg",
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "bayTownProcessPlant"
+    ]
+}

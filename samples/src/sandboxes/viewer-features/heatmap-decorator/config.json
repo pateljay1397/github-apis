@@ -1,0 +1,34 @@
+{
+    "id": "eca24a40-0aef-4ae1-aa10-48942204350a",
+    "name": "Heatmap Decorator",
+    "entryFile": "HeatmapDecoratorApp.tsx",
+    "files": [
+        "HeatmapDecorator.scss",
+        "HeatmapDecorator.ts",
+        "HeatmapDecoratorApi.ts",
+        "HeatmapDecoratorApp.tsx",
+        "HeatmapDecoratorWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "point-selector",
+        "view-setup"
+    ],
+    "description": "Uses a #Decorator to show a #heatmap as a #WorldOverlay on top of the viewport.",
+    "thumbnail": "heatmap-decorator-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "retailBuilding",
+        "bayTownProcessPlant",
+        "house",
+        "stadium",
+        "extonCampus"
+    ]
+}

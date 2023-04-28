@@ -1,0 +1,32 @@
+{
+  "id": "c76c854a-8cd0-4f85-b649-2cd12c80c700",
+  "name": "Stadium Section Viewer",
+  "entryFile": "StadiumApp.tsx",
+  "files": [
+    "GameDetails.tsx",
+    "GameDetails.scss",
+    "SeatViewTool.ts",
+    "SectionChangeTool.ts",
+    "SectionPicker.tsx",
+    "StadiumApp.tsx",
+    "StadiumApp.scss",
+    "StadiumDataApi.ts",
+    "StadiumViewer.tsx",
+    "Team_logo.png"
+  ],
+  "commonFiles": [
+    "authorization-client",
+    "map-layer-options",
+    "view-setup"
+  ],
+  "description": "Select a #section and #check the view #of stadium from selected section.",
+  "thumbnail": "stadium-section-view-thumbnail.jpg",
+  "attributes": [
+    "itwin-version:3.x",
+    "api-path:visualization",
+    "api-group-id:visualization"
+  ],
+  "iModels": [
+    "stadium"
+  ]
+}

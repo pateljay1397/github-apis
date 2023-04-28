@@ -1,0 +1,24 @@
+{
+    "id": "fc62d232-3153-417d-b023-4598b653f6f3",
+    "name": "Simple Animated",
+    "entryFile": "SimpleAnimatedApp.tsx",
+    "files": [
+        "ConwaysGameOfLife.ts",
+        "SimpleAnimated.scss",
+        "SimpleAnimatedApi.ts",
+        "SimpleAnimatedApp.tsx",
+        "SimpleAnimatedWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Geometry #sample showing how to create #animation using multiple #2d shapes.",
+    "thumbnail": "simple-animated-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

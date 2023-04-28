@@ -1,0 +1,26 @@
+{
+    "id": "88182d1b-b11f-457e-bcb1-7e5c449a341c",
+    "name": "2d Viewer",
+    "entryFile": "ViewerOnly2dApp.tsx",
+    "files": [
+        "ViewerOnly2dWidget.tsx",
+        "ViewerOnly2dApp.tsx",
+        "ViewerOnly2dApi.ts",
+        "ViewerOnly2d.scss",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "view-setup"
+    ],
+    "description": "An iTwin.js  application that lets you view 2D models",
+    "thumbnail": "viewer-only-2d-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "house"
+    ]
+}

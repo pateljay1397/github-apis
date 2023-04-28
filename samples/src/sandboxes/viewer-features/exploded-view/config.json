@@ -1,0 +1,28 @@
+{
+    "id": "68f4318f-5ecf-4290-b225-9114304e77cf",
+    "name": "Exploded View",
+    "entryFile": "ExplodeApp.tsx",
+    "files": [
+        "Explode.scss",
+        "ExplodeApi.ts",
+        "ExplodeApp.tsx",
+        "ExplodeTile.ts",
+        "ExplodeWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Uses a #TileTree to create an #explode effect in the viewport.",
+    "thumbnail": "exploded-view-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "house"
+    ]
+}

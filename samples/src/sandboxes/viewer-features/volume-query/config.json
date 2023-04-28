@@ -1,0 +1,27 @@
+{
+    "id": "0885edb9-08ea-42e6-b5bf-edf91e7eb90e",
+    "name": "Volume Query",
+    "entryFile": "VolumeQueryApp.tsx",
+    "files": [
+        "readme.md",
+        "VolumeQuery.scss",
+        "VolumeQueryApi.ts",
+        "VolumeQueryApp.tsx",
+        "VolumeQueryWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Query #SpatialElements using #SpatialQueries. Elements are classified using #getGeometryContainment. To color and represent elements #EmphasizeElements and #PresentationLabelsProvider are being used.",
+    "thumbnail": "volume-query-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "retailBuilding"
+    ]
+}

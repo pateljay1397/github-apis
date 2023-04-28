@@ -1,0 +1,31 @@
+{
+    "id": "59ac6a36-c725-4dac-8e02-33e6cd018b1f",
+    "name": "Frontstage-Statusbar",
+    "entryFile": "FrontstageStatusBarApp.tsx",
+    "files": [
+        "FrontstageStatusBarApp.tsx",
+        "readme.md",
+        "CustomStatusbarFrontstage.ts",
+        "ModalWithMessage.tsx",
+        "ScopeSelect.tsx",
+        "CustomStatusbarProvider.tsx",
+        "public/cursor-click.svg",
+        "public/globe.svg"
+    ],
+    "description": "Demonstrates how to customize the #Statusbar in a #Frontstage.",
+    "thumbnail": "frontstage-statusbar-thumbnail.jpg",
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "bayTownProcessPlant"
+    ]
+}

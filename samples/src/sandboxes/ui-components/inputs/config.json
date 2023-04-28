@@ -1,0 +1,21 @@
+{
+    "id": "9d75ee2c-090f-4b05-9045-97492653c086",
+    "name": "Inputs",
+    "entryFile": "Inputs.tsx",
+    "files": [
+        "Inputs.tsx",
+        "readme.md"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #inputs.",
+    "thumbnail": "ui-inputs-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "12510a7a-3103-4795-addc-4026cabeda2e",
+    "name": "Camera Path",
+    "entryFile": "CameraPathApp.tsx",
+    "files": [
+        "CameraPath.scss",
+        "CameraPathApi.ts",
+        "CameraPathApp.tsx",
+        "CameraPathTool.ts",
+        "CameraPathWidget.tsx",
+        "Coordinates.ts",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "#Animates the #camera along a path using #setEyePoint.  Also shows a #tool to control the look direction using #setupViewFromFrustum.",
+    "thumbnail": "camera-path-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

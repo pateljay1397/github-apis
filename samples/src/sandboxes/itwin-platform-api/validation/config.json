@@ -1,0 +1,33 @@
+{
+    "id": "0c0e4c99-b759-4eda-b8c1-a96b9f66c1ef",
+    "name": "Validation",
+    "entryFile": "ValidationApp.tsx",
+    "files": [
+        "readme.md",
+        "ValidationApi.ts",
+        "ValidationApp.tsx",
+        "ValidationClient.ts",
+        "ValidationReview.scss",
+        "ValidationResultsWidget.tsx",
+        "ValidationRulesWidget.tsx",
+        "ValidationRunsWidget.tsx",
+        "ValidationTestsWidget.tsx",
+        "SettingsWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "marker-pin-decorator",
+        "popup-menu",
+        "view-setup"
+    ],
+    "description": "Uses the #validation REST API.",
+    "thumbnail": "validation-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:validation/propertyValue",
+        "api-group-id:validation"
+    ],
+    "iModels": [
+        "bayTownProcessPlant"
+    ]
+}

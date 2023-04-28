@@ -1,0 +1,24 @@
+{
+    "id": "ca1c2147-7b14-4f10-84c1-aebd333f962f",
+    "name": "Custom Event Handler Tree",
+    "entryFile": "CustomEventHandlerTreeApp.tsx",
+    "files": [
+        "CustomEventHandlerTree.scss",
+        "CustomEventHandlerTreeApp.tsx",
+        "CustomEventHandlerTreeComponent.tsx",
+        "BlankFrontstage.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md",
+        "SampleDataProvider.ts"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to create a tree with custom #events using a #TreeEventHandler.",
+    "thumbnail": "custom-event-handler-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

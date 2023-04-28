@@ -1,0 +1,21 @@
+{
+    "id": "8b122039-b552-4ed1-b133-64bf1056d32f",
+    "name": "Check List Box",
+    "entryFile": "CheckListBox.tsx",
+    "files": [
+        "CheckListBox.tsx",
+        "readme.md"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #checklistboxes.",
+    "thumbnail": "ui-checklistbox-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

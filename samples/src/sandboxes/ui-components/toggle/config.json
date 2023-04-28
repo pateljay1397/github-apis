@@ -1,0 +1,17 @@
+{
+    "id": "43c5d122-5d50-43b7-9bc5-502db6ea016b",
+    "name": "Toggle",
+    "entryFile": "Toggle.tsx",
+    "files": [
+        "readme.md",
+        "Toggle.tsx"
+    ],
+    "symlinks":[
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #toggles.",
+    "thumbnail": "ui-toggle-thumbnail.jpg",
+    "attributes": ["itwin-version:3.x", "api-path:visualization", "api-group-id:visualization"]
+}

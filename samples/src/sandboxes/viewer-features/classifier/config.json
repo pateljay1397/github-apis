@@ -1,0 +1,28 @@
+{
+    "id": "026f60e8-1e30-466e-8c90-c2feb6f0ace4",
+    "name": "Classifiers",
+    "entryFile": "ClassifierApp.tsx",
+    "files": [
+        "Classifier.scss",
+        "ClassifierApi.ts",
+        "ClassifierApp.tsx",
+        "ClassifierProperties.tsx",
+        "ClassifierWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "How to apply a #classifier to a #realitymodel. Also demonstrates how to adjust the display of #classifier, in this case a #spatial classifier",
+    "thumbnail": "classifier-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "philadelphia"
+    ]
+}

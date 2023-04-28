@@ -1,0 +1,24 @@
+{
+    "id": "9599ba11-3745-4dac-89c9-b12eeaaa2abc",
+    "name": "Custom Checkboxes Tree",
+    "entryFile": "CustomCheckboxesTreeApp.tsx",
+    "files": [
+        "CustomCheckboxesTree.scss",
+        "CustomCheckboxesTreeApp.tsx",
+        "CustomCheckboxesTreeComponent.tsx",
+        "BlankFrontstage.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md",
+        "SampleDataProvider.ts"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to create a tree with custom #checkboxes using a #ImageCheckBox component.",
+    "thumbnail": "custom-checkboxes-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

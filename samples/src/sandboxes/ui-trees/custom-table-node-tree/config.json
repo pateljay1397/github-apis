@@ -1,0 +1,23 @@
+{
+    "id": "921e5c21-56b0-4f2f-bbea-6951d7e8c18e",
+    "name": "Custom Table Node Tree",
+    "entryFile": "CustomTableNodeTreeApp.tsx",
+    "files": [
+        "BlankFrontstage.tsx",
+        "CustomTableNodeTree.scss",
+        "CustomTableNodeTreeApp.tsx",
+        "CustomTableNodeTreeComponent.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to override the default #node #rendering of a tree.",
+    "thumbnail": "custom-table-node-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

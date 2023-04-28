@@ -1,0 +1,32 @@
+{
+    "id": "17ad88be-df3b-4d3d-a15d-a672b684cfc2",
+    "name": "Zoom to Elements",
+    "entryFile": "ZoomToElementsApp.tsx",
+    "files": [
+        "readme.md",
+        "StandardViewPicker.tsx",
+        "ZoomToElements.scss",
+        "ZoomToElementsApi.ts",
+        "ZoomToElementsApp.tsx",
+        "ZoomToElementsWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Uses #zoomToElement, #ZoomToOptions, and #ViewChangeOptions to center the view on element(s) of interest.",
+    "thumbnail": "zoom-to-elements-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "bayTownProcessPlant",
+        "retailBuilding",
+        "metrostation",
+        "house",
+        "stadium"
+    ]
+}

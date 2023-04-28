@@ -1,0 +1,27 @@
+{
+    "id": "9c453b46-8bfd-4f9a-85dc-fb86f2399c1e",
+    "name": "Custom Webfont Icons Tree",
+    "entryFile": "CustomWebfontIconsTreeApp.tsx",
+    "files": [
+        "BlankFrontstage.tsx",
+        "CustomWebfontIconsRuleset.ts",
+        "CustomWebfontIconsTree.scss",
+        "CustomWebfontIconsTreeApp.tsx",
+        "CustomWebfontIconsTreeComponent.tsx",
+        "InstructionsWidgetProvider.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "#Tree #sample showing how to display #custom #icons using #iModel #data.",
+    "thumbnail": "custom-webfont-icons-tree-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation"
+    ]
+}

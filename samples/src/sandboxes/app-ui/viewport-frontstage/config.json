@@ -1,0 +1,29 @@
+{
+    "id": "b3dc588c-5621-400c-a966-2f7367412a42",
+    "name": "Viewport Frontstage",
+    "entryFile": "ViewportFrontstageApp.tsx",
+    "files": [
+        "ViewportFrontstageApp.tsx",
+        "readme.md"
+    ],
+    "description": "Demonstrates how to use the Frontstage API",
+    "thumbnail": "viewport-frontstage-thumbnail.jpg",
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "bayTownProcessPlant",
+        "extonCampus",
+        "house",
+        "retailBuilding",
+        "stadium"
+    ]
+}

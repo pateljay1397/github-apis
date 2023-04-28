@@ -1,0 +1,21 @@
+{
+    "id": "c2025f82-8bde-449d-84d0-dc4c3476d48f",
+    "name": "Button",
+    "entryFile": "Buttons.tsx",
+    "files": [
+        "Buttons.tsx",
+        "readme.md"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #buttons.",
+    "thumbnail": "ui-button-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

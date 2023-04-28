@@ -1,0 +1,24 @@
+{
+    "id": "94dbf42e-dd29-47fc-8156-0e29fe0f15aa",
+    "name": "Simple Line",
+    "entryFile": "SimpleLineApp.tsx",
+    "files": [
+        "InteractivePointMarker.ts",
+        "SimpleLine.scss",
+        "SimpleLineApi.ts",
+        "SimpleLineApp.tsx",
+        "SimpleLineWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Simple #geometry #sample showing how to create a #line #segment using #LineSegment3d and create #points along it using #fractionToPoint.",
+    "thumbnail": "simple-line-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

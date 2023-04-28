@@ -1,0 +1,28 @@
+{
+    "id": "acf25c84-0665-459d-8b2b-f025566c379a",
+    "name": "Reality Data",
+    "entryFile": "RealityDataApp.tsx",
+    "files": [
+        "walkthrough.md",
+        "readme.md",
+        "RealityData.scss",
+        "RealityDataApi.ts",
+        "RealityDataApp.tsx",
+        "RealityDataWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Adding, removing, and modifying the display of #reality data. Discovers available #realitymodel and attaches the first one to the viewport.",
+    "thumbnail": "reality-data-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "extonCampus"
+    ]
+}

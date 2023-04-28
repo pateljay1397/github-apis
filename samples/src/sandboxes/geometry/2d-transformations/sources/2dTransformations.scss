@@ -1,0 +1,64 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-options {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  display: grid;
+  gap: 16px;
+  grid-template: min-content 1fr / 1fr;
+  max-width: 1200px;
+
+  .sample-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: start;
+
+    .selectors {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 8px;
+      row-gap: 16px;
+      align-content: start;
+      flex: 1;
+      .iui-input-container {
+        min-width: 160px;
+        flex: 1;
+      }
+      .iui-button {
+        flex: 1;
+      }
+    }
+
+    .controls {
+      flex: 4;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+      .control-block {
+        display: grid;
+        column-gap: 8px;
+        grid-template-columns: 1fr min-content;
+
+        .iui-label {
+          width: 55px;
+          text-align: right;
+          white-space: nowrap;
+        }
+        .iui-input {
+          min-width: 30px;
+        }
+      }
+    }
+  }
+}
+
+.instructions {
+  justify-self: stretch;
+  align-self: end;
+}

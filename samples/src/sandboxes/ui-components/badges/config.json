@@ -1,0 +1,21 @@
+{
+    "id": "c1037936-63fd-4519-afe6-a0bfe1cd60a1",
+    "name": "Badges",
+    "entryFile": "Badges.tsx",
+    "files": [
+        "Badges.tsx",
+        "readme.md"
+    ],
+    "symlinks": [
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #badges.",
+    "thumbnail": "ui-badge-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

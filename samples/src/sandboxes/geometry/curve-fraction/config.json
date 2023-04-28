@@ -1,0 +1,25 @@
+{
+    "id": "a67bf9ae-e69e-49d9-84e7-dd9b3fb39f49",
+    "name": "Curve Fractions",
+    "entryFile": "CurveFractionApp.tsx",
+    "files": [
+        "CurveFraction.scss",
+        "CurveFractionApi.ts",
+        "CurveFractionApp.tsx",
+        "CurveFractionWidget.tsx",
+        "InteractivePointMarker.ts",
+        "readme.md",
+        "SampleCurveFactory.ts"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "geometry-decorator"
+    ],
+    "description": "#Geometry #sample showing how to find a #point along a set #fraction of a #curve using the #fractionToPointAndDerivative method",
+    "thumbnail": "curve-fraction-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ]
+}

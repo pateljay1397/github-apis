@@ -1,0 +1,17 @@
+{
+    "id": "14f25f71-c272-48f5-8cd9-2dd0070e2a86",
+    "name": "Tiles",
+    "entryFile": "Tiles.tsx",
+    "files": [
+        "readme.md",
+        "Tiles.tsx"
+    ],
+    "symlinks":[
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #tiles.",
+    "thumbnail": "ui-tiles-thumbnail.jpg",
+    "attributes": ["itwin-version:3.x", "api-path:visualization", "api-group-id:visualization"]
+}

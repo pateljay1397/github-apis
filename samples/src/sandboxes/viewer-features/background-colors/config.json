@@ -1,0 +1,31 @@
+{
+    "id": "f44dcf81-5fde-4a5b-8916-e2debd93d02b",
+    "name": "Background-Colors",
+    "entryFile": "BackgroundColorsApp.tsx",
+    "files": [
+        "BackgroundColorsApi.tsx",
+        "BackgroundColorsApp.tsx",
+        "BackgroundColorsPresets.tsx",
+        "BackgroundColorsWidget.tsx",
+        "BackgroundColors.scss",
+        "readme.md",
+        "public/bentley.jpg"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "This sample demonstrates how to implement viewport images, single background colors with transparency, and 2 and 4 color sky gradients. #background #color #transparency #skybox #image",
+    "thumbnail": "background-colors-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "villa",
+        "retailBuilding",
+        "house"
+    ]
+}

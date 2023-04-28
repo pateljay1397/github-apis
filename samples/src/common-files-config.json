@@ -1,0 +1,90 @@
+[
+  {
+    "name": "marker-pin-decorator",
+    "displayName": "Marker Pin Decorator",
+    "version": "0.1.0",
+    "dependencies": [
+      "popup-menu"
+    ],
+    "files": [
+      "/common/marker-pin/marker-pin.svg",
+      "/common/marker-pin/MarkerPinDecorator.ts"
+    ]
+  },
+  {
+    "name": "place-marker-tool",
+    "displayName": "Place Marker Tool",
+    "version": "0.1.0",
+    "files": [
+      "/common/marker-pin/PlaceMarkerTool.ts"
+    ]
+  },
+  {
+    "name": "popup-menu",
+    "displayName": "Popup Menu",
+    "version": "0.1.0",
+    "files": [
+      "/common/marker-pin/PopupMenu.tsx"
+    ]
+  },
+  {
+    "name": "point-selector",
+    "displayName": "Point Selector",
+    "version": "0.1.0",
+    "files": [
+      "/common/point-selector/PointGenerators.tsx",
+      "/common/point-selector/PointSelector.tsx"
+    ]
+  },
+  {
+    "name": "geometry-decorator",
+    "displayName": "Geometry Decorator",
+    "version": "0.1.0",
+    "files": [
+      "/common/utils/GeometryDecorator.ts"
+    ]
+  },
+  {
+    "name": "authorization-client",
+    "displayName": "Authorization Client",
+    "version": "0.1.0",
+    "files": [
+      "/common/AuthorizationClient.ts"
+    ]
+  },
+  {
+    "name": "map-layer-options",
+    "displayName": "Map Layer Options",
+    "version": "0.1.0",
+    "files": [
+      "/common/MapLayerOptions.ts"
+    ]
+  },
+  {
+    "name": "default-viewer-props",
+    "displayName": "Default Viewer Properties",
+    "version": "0.1.0",
+    "files": [
+      "/common/DefaultViewerProps.ts"
+    ]
+  },
+  {
+    "name": "view-setup",
+    "displayName": "View Setup",
+    "version": "0.1.0",
+    "dependencies": [
+      "authorization-client"
+    ],
+    "files": [
+      "/common/ViewSetup.ts"
+    ]
+  },
+  {
+    "name": "open-street-map-api",
+    "displayName": "Open Street Map Overpass API",
+    "version": "0.1.0",
+    "files": [
+      "/common/open-street-map/OverpassApi.ts"
+    ]
+  }
+]

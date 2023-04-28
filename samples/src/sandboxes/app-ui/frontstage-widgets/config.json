@@ -1,0 +1,36 @@
+{
+    "id": "9d3400e2-1e2d-4ea3-bf4b-ebff78e69fc8",
+    "name": "Frontstage-Widgets",
+    "entryFile": "FrontstageWidgetsApp.tsx",
+    "files": [
+        "FrontstageWidgetsApp.tsx",
+        "readme.md",
+        "FrontstageWidgets.scss",
+        "CustomWidgetsFrontstage.ts",
+        "MessageWithWidgetToggle.tsx",
+        "CustomWidgetsProvider.tsx",
+        "public/details.svg",
+        "public/developer.svg",
+        "public/layers.svg",
+        "public/model.svg",
+        "public/tools.svg",
+        "public/visibility.svg",
+        "SimpleCustomTool.ts"
+    ],
+    "description": "Demonstrates how to customize #Widgets in a #Frontstage.",
+    "thumbnail": "frontstage-widgets-thumbnail.jpg",
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "bayTownProcessPlant"
+    ]
+}

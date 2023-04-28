@@ -1,0 +1,17 @@
+{
+    "id": "ea41e4a0-4937-4a34-890c-5b2115d795c9",
+    "name": "Slider",
+    "entryFile": "Slider.tsx",
+    "files": [
+        "readme.md",
+        "Slider.tsx"
+    ],
+    "symlinks":[
+        "itwinui-demo/itwinui.svg",
+        "itwinui-demo/Layout.scss",
+        "itwinui-demo/Layout.tsx"
+    ],
+    "description": "#Component #sample showing different #styles of #sliders.",
+    "thumbnail": "ui-sliders-thumbnail.jpg",
+    "attributes": ["itwin-version:3.x", "api-path:visualization", "api-group-id:visualization"]
+}

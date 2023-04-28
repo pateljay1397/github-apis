@@ -1,0 +1,30 @@
+{
+    "id": "bebdf96d-d17b-4df5-b6cb-1ea95de15206",
+    "name": "Property Formatting",
+    "entryFile": "PropertyFormattingApp.tsx",
+    "files": [
+        "PropertyFormatting.scss",
+        "PropertyFormattingApi.ts",
+        "PropertyFormattingApp.tsx",
+        "PropertyFormattingWidget.tsx",
+        "PropertyGridComponent.tsx",
+        "PropertyTableWidget.tsx",
+        "readme.md"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Uses the #Presentation API to display element #properties.",
+    "thumbnail": "property-formatting-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "retailBuilding",
+        "bayTownProcessPlant"
+    ]
+}

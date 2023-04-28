@@ -1,0 +1,31 @@
+{
+    "id": "6fd6473e-532c-4188-a149-8b76221de11c",
+    "name": "Add Toolbar Button",
+    "entryFile": "ToolbarButtonApp.tsx",
+    "files": [
+        "InstructionsWidgetProvider.tsx",
+        "readme.md",
+        "ToolbarButtonApp.tsx",
+        "ToolbarButtonProvider.tsx"
+    ],
+    "description": "How to add a #toolbar #button",
+    "thumbnail": "toolbar-button-thumbnail.jpg",
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "house",
+        "metrostation",
+        "bayTownProcessPlant",
+        "extonCampus",
+        "retailBuilding",
+        "stadium"
+    ]
+}

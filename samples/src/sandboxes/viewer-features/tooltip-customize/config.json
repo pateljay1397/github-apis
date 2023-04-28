@@ -1,0 +1,31 @@
+{
+    "id": "cf8bcd92-dbe1-487c-9237-e53ee6d57cc6",
+    "name": "Tooltip Customize",
+    "entryFile": "TooltipCustomizeApp.tsx",
+    "files": [
+        "itwinjs-logo.png",
+        "readme.md",
+        "TooltipCustomize.scss",
+        "TooltipCustomizeApi.tsx",
+        "TooltipCustomizeApp.tsx",
+        "TooltipCustomizeWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Shows customized element #tooltips by supplying a #ToolAdmin that overrides the #getToolTip method.",
+    "thumbnail": "tooltip-customize-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "retailBuilding",
+        "house",
+        "bayTownProcessPlant"
+    ]
+}

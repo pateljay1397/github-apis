@@ -1,0 +1,25 @@
+{
+    "id": "dbc77226-ed66-4f8d-9d41-ae4586811c05",
+    "name": "Scientific Visualization",
+    "entryFile": "ScientificVizApp.tsx",
+    "files": [
+        "Cantilever.ts",
+        "readme.md",
+        "ScientificViz.scss",
+        "ScientificVizApi.ts",
+        "ScientificVizApp.tsx",
+        "ScientificVizDecorator.ts",
+        "ScientificVizWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client"
+    ],
+    "description": "Shows #scientific #visualization and #animation",
+    "thumbnail": "scientific-visualization-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": []
+}

@@ -1,0 +1,28 @@
+{
+    "id": "83bafc4a-f9e4-406d-934b-b3c69bde1614",
+    "name": "View Attributes",
+    "entryFile": "ViewAttributesApp.tsx",
+    "files": [
+        "readme.md",
+        "ViewAttributes.scss",
+        "ViewAttributesApi.ts",
+        "ViewAttributesApp.tsx",
+        "ViewAttributesWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "How to get and set various #ViewFlags and other #view attributes including: #RenderMode, #Skybox, #BackgroundMap, #Grid, #ACS, and others.",
+    "thumbnail": "view-attributes-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "house"
+    ]
+}

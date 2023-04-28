@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------------------------------
+* Copyright (c) Bentley Systems, Incorporated. All rights reserved.
+* See LICENSE.md in the project root for license terms and full copyright notice.
+*--------------------------------------------------------------------------------------------*/
+.sample-options {
+  padding: 8px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.sample-grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  row-gap: 16px;
+  column-gap: 8px;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr min-content;
+
+  .iui-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .instructions {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+}
+
+.selection-control {
+  display: grid;
+  row-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content;
+  align-self: stretch;
+  overflow: hidden;
+
+  &-datatable {
+    overflow-y: scroll;
+  }
+}
+
+.zoom-controls {
+  display: grid;
+  row-gap: 16px;
+  column-gap: 16px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: min-content min-content min-content;
+
+  &-a {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+  &-b {
+    grid-row: 2;
+    grid-column: 1;
+    align-self: end;
+  }
+  &-c {
+    grid-row: 2;
+    grid-column: 2;
+    align-self: end;
+  }
+  &-d {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    justify-self: center;
+  }
+}

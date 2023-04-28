@@ -1,0 +1,30 @@
+{
+    "id": "7f343b1f-11e9-435d-b246-f4a9acbb6e03",
+    "name": "Serialize View",
+    "entryFile": "SerializeViewApp.tsx",
+    "files": [
+        "JsonViewerWidget.tsx",
+        "readme.md",
+        "SampleViewStates.ts",
+        "SerializeView.scss",
+        "SerializeViewApi.ts",
+        "SerializeViewApp.tsx",
+        "SerializeViewWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "How to #serialize, #deserialize and load a #viewstate from JSON.",
+    "thumbnail": "serialize-view-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "retailBuilding",
+        "metrostation"
+    ]
+}

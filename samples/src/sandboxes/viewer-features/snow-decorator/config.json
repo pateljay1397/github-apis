@@ -1,0 +1,39 @@
+{
+    "id": "44c5d17a-396f-44aa-900e-a1eafae34410",
+    "name": "Snow and Rain Particle Effect",
+    "entryFile": "SnowDecorationApp.tsx",
+    "files": [
+        "particle_rain.png",
+        "particle_rain1.png",
+        "particle_rain2.png",
+        "particle_rain3.png",
+        "particle_rain4.png",
+        "particle_rain5.png",
+        "particle_snow.png",
+        "readme.md",
+        "SnowDecoration.scss",
+        "SnowDecorationApi.ts",
+        "SnowDecorationApp.tsx",
+        "SnowDecorationWidget.tsx",
+        "SnowDecorator.ts"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Creates a #snow #overlay using #particles #Decorator.",
+    "thumbnail": "snow-decorator-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "villa",
+        "house",
+        "metrostation",
+        "bayTownProcessPlant",
+        "stadium"
+    ]
+}

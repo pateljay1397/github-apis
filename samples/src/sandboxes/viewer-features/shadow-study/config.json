@@ -1,0 +1,29 @@
+{
+    "id": "2a07a523-873b-4f18-ab6a-fa96b005d5b3",
+    "name": "Shadow Study",
+    "entryFile": "ShadowStudyApp.tsx",
+    "files": [
+        "readme.md",
+        "ShadowStudy.scss",
+        "ShadowStudyApi.ts",
+        "ShadowStudyApp.tsx",
+        "ShadowStudyWidget.tsx"
+    ],
+    "commonFiles": [
+        "authorization-client",
+        "map-layer-options",
+        "view-setup"
+    ],
+    "description": "Shows how to adjust the #solar #lighting by using #setSunTime",
+    "thumbnail": "shadow-study-thumbnail.jpg",
+    "attributes": [
+        "itwin-version:3.x",
+        "api-path:visualization",
+        "api-group-id:visualization"
+    ],
+    "iModels": [
+        "metrostation",
+        "house",
+        "villa"
+    ]
+}
