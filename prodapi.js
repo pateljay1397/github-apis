@@ -1,0 +1,98 @@
+const samplesNames = [
+    "Camera Path",
+    "Cross-Probing",
+    "Classifiers",
+    "Hyper-modeling",
+    "Emphasize Elements",
+    "Swiping Comparison",
+    "Exploded View",
+    "Display Styles",
+    "IoT Alerts",
+    "Volume Query",
+    "View Clipping",
+    "Scientific Visualization",
+    "Heatmap Decorator",
+    "Thematic Display",
+    "Serialize View",
+    "Stadium Section Viewer",
+    "Snow and Rain Particle Effect",
+    "Zoom to Elements",
+    "Property Formatting",
+    "Tooltip Customize",
+    "Screen-space Effects",
+    "Fire Particle Effect",
+    "Road Network Decoration",
+    "Shadow Study",
+    "Background-Colors",
+    "Marker Pins",
+    "Image Export",
+    "Car Particle Effect",
+    "Selection Scope - Geometric Elements",
+    "Image Manipulator",
+    "Camera Visualizer",
+    "Multiple Viewports",
+    "Tabs",
+    "Check List Box",
+    "Loading",
+    "Badges",
+    "Button",
+    "Inputs",
+    "Tiles",
+    "Search Boxes",
+    "Toggle",
+    "Slider",
+    "Expandable Lists",
+    "Text",
+    "Viewport Frontstage",
+    "Add Toolbar Button",
+    "Frontstage-Statusbar",
+    "Frontstage-Widgets",
+    "Frontstage-Introduction",
+    "Frontstage-Toolbar",
+    "Advanced 3d",
+    "Curve Fractions",
+    "Closest Point on Curve",
+    "Simple Line",
+    "Simple 3d",
+    "Simple Animated",
+    "2d Transformations",
+    "Issues",
+    "iModels OData",
+    "Reporting",
+    "Mesh Export",
+    "Clash Review",
+    "Validation",
+    "Transformations",
+    "Changed Elements",
+    "Grouping Mapping Widget",
+    "Saved Views",
+    "Custom Checkboxes Tree",
+    "Custom Event Handler Tree",
+    "Basic Tree",
+    "Presentation Tree",
+    "Custom Webfont Icons Tree",
+    "Unified Selection Tree",
+    "Custom Table Node Tree",
+    "Custom Node Loading Tree",
+    "View Attributes",
+    "3d Viewer",
+    "2d Viewer",
+    "Reality Data",
+    "Global Display",
+]
+
+for(const sampleName of samplesNames){
+    const results = [];
+    const encodedName = encodeURIComponent(sampleName);
+    for(let i = 0; i<10; i++){
+        const start = performance.now()
+        await fetch(`https://connect-itwinjscodesandbox.bentley.com/api/username/iTwinPlatform/codeshare/${encodedName}/view`).then((response)=>{
+            if(response.status === 200) {
+                const end = performance.now();
+                results.push(Math.round(end-start));
+            }
+        })
+    }
+    const total = results.reduce((sum, currentValue) => sum + currentValue, 0);
+    console.log(`${sampleName},${(total/results.length)}`);
+}
